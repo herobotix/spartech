@@ -1,23 +1,71 @@
-.container {
-  position: relative;
+header {
+	margin: 0;
+	background: #6C0000;
 }
 
-.topleft {
-  font-family: fantasy;
-  position: absolute;
-  top: 35px;
-  left: 535px;
-  font-size: 50px;
+header::after{
+	content: '';
+	display: table;
+	clear: both;
 }
-
+	
 .logo {
-  position: absolute;
-  top: -10px;
-  left: 320px;
-  height: 180;
-  width: 325;
-  opacity: 100;
-  
+	float: left;
+	margin: 0;
+	padding: 10px 0;
 }
 
+nav {
+	float: right;
+}
 
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-right: 70px;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 100px;
+	padding-top: 75px;
+	margin-bottom: ;
+	font-family: felix titling; 
+	
+	position: relative;
+}
+
+nav a{
+	color: #FFD700;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #FFD700;
+	
+	position: absolute; 
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%
+}
+
+body {
+	margin: 0;
+	background-color: #300000;
+}
