@@ -1,1 +1,139 @@
+<head>
+		<link rel="stylesheet" href="TW ST.css">
+	</head>
+	<body  bgcolor=#941212 text=white>
 
+		<div class="mainBody">
+			<div class="teamPageTitle">
+				Team Members
+			</div>
+			<div class="teamMembers">
+				<div class="rowTop">
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+				</div>
+				<div class="rowMiddle">
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+				</div>
+				<div class="rowBottom">
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+					<div class="memberCard">
+						<table cellspacing="10px">
+							<tr> <th> Name: </th> <th> Kamren </th> </tr>
+							<tr> <th> Age: </th> <th> 13 </th> </tr>
+							<tr> <th> Grade: </th> <th> 8th </th> </tr>
+							<tr> <th> Team role: </th> <th> Treasurer/website designer </th> </tr>
+							<tr> <th> Hobbies: </th> <th> Gaming </th> </tr>
+							<tr> <th> Dream Job: </th> <th> Game designer/tester or programer </th> </tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
