@@ -137,3 +137,31 @@
 			</div>
 		</div>
 	</body>
+<html>
+<head>
+	<link href="Spar-Techstyle.css" rel="stylesheet">
+	<title>SparTech</title>
+	
+</head>
+<body>
+
+<header>
+	<div class="container">
+	
+		<img src="SparTechLogo.png" height="150" width="auto" alt="logo" class="logo">
+		
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="SparTech Members Page">Team Members</a></li>
+				<li><a href="#">Memories</a></li>
+				<li><a href="#">Sponsors</a></li>
+			</ul>
+		</nav>
+	<div/>
+<header/>
+	<h2>
+	<h2/>
+</body>
+</html>
