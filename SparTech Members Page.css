@@ -20,10 +20,6 @@ th, td {
 	margin: auto;
 }
 
-.memberRows{
-	display: flex;
-}
-
 .rowMiddle{
 	display: flex;
 	margin: auto;
