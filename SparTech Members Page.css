@@ -1,1 +1,44 @@
+<style>
 
+th, td {
+  padding: 0;
+  text-align: left;
+}
+
+.teamMembers {
+	justify-content: left;
+}
+
+.teamMembers .memberCard {
+	background-color: #FFD700;
+	font-family: Bahnschrift Light;
+
+}
+
+.rowTop{
+	display: flex;
+	margin: auto;
+}
+
+.memberRows{
+	display: flex;
+}
+
+.rowMiddle{
+	display: flex;
+	margin: auto;
+}
+
+.rowBottom{
+	display: flex;
+	margin: auto;
+}
+
+.teamPageTitle{
+	text-align: center;
+	font-size: 3.12em;
+	font-family: Bahnschrift Light;
+	margin-top: 30px;
+}
+
+</style>
