@@ -32,6 +32,9 @@
 	<body  bgcolor=#941212 text=white>
 
 		<div class="mainBody">
+			<div class="teamPageTitle">
+				Team Members
+			</div>
 			<div class="teamMembers">
 				<div class="rowTop">
 					<div class="memberCard">
