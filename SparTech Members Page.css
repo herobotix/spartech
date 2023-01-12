@@ -23,7 +23,6 @@ th, td {
 .rowMiddle{
 	display: flex;
 	margin: auto;
-	text-color: #FFD700;
 }
 
 .rowBottom{
