@@ -10,7 +10,7 @@ th, td {
 }
 
 .teamMembers .memberCard {
-	background-color: #30000;
+	background-color: #300000;
 	font-family: Bahnschrift Light;
 
 }
@@ -35,7 +35,6 @@ th, td {
 	font-size: 3.12em;
 	font-family: Bahnschrift Light;
 	margin-top: 30px;
-	content: '';
 }
 
 </style>
