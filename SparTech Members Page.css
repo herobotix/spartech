@@ -18,7 +18,7 @@ th, td {
 .rowTop{
 	display: flex;
 	margin: auto;
-	color: #FFD700;
+	content-color: #FFD700;
 }
 
 .rowMiddle{
