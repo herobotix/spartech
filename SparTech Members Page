@@ -5,7 +5,7 @@
 	<title>SparTech</title>
 	
 </head>
-<body  bgcolor=#300000>
+<body  bgcolor=#300000 text:#FFD700>
 
 <header>
 	<div class="container">
