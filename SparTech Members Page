@@ -1,10 +1,11 @@
 <html>
 <head>
 	<link href="Spar-Techstyle.css" rel="stylesheet">
+	<link rel="stylesheet" href="SparTech Members Page.css">
 	<title>SparTech</title>
 	
 </head>
-<body>
+<body  bgcolor=#941212 text=white>
 
 <header>
 	<div class="container">
@@ -22,15 +23,6 @@
 		</nav>
 	<div/>
 <header/>
-	<h2>
-	<h2/>
-</body>
-
-<head>
-		<link rel="stylesheet" href="SparTech Members Page.css">
-	</head>
-	<body  bgcolor=#941212 text=white>
-
 		<div class="mainBody">
 			<div class="teamPageTitle">
 				
