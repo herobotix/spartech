@@ -31,6 +31,16 @@
         <div class="rowTop">
           <div class="memberCard">
             <table cellspacing="10px">
+              <tr> <td> Name: </td> <td> Gage </td> </tr>
+              <tr> <td> Age: </td> <td> 16 </td> </tr>
+              <tr> <td> Grade: </td> <td> 10th </td> </tr>
+              <tr> <td> Team role: </td> <td> Mechanical engineer/Club president </td> </tr>
+              <tr> <td> Hobbies: </td> <td> Mountain Biking </td> </tr>
+              <tr> <td> Dream Job: </td> <td> Mechanical engineer for Tesla </td> </tr>
+            </table>
+          </div>
+          <div class="memberCard">
+            <table cellspacing="10px">
               <tr> <td> Name: </td> <td> Kamren </td> </tr>
               <tr> <td> Age: </td> <td> 13 </td> </tr>
               <tr> <td> Grade: </td> <td> 8th </td> </tr>
@@ -49,25 +59,14 @@
               <tr> <td> Dream Job: </td> <td> Game designer/tester or programer </td> </tr>
             </table>
           </div>
-          <hr>
           <div class="memberCard">
             <table cellspacing="10px">
-              <tr> <td> Name: </td> <td> Kamren </td> </tr>
-              <tr> <td> Age: </td> <td> 13 </td> </tr>
-              <tr> <td> Grade: </td> <td> 8th </td> </tr>
-              <tr> <td> Team role: </td> <td> Treasurer/website designer </td> </tr>
-              <tr> <td> Hobbies: </td> <td> Gaming </td> </tr>
-              <tr> <td> Dream Job: </td> <td> Game designer/tester or programer </td> </tr>
-            </table>
-          </div>
-          <div class="memberCard">
-            <table cellspacing="10px">
-              <tr> <td> Name: </td> <td> Kamren </td> </tr>
-              <tr> <td> Age: </td> <td> 13 </td> </tr>
-              <tr> <td> Grade: </td> <td> 8th </td> </tr>
-              <tr> <td> Team role: </td> <td> Treasurer/website designer </td> </tr>
-              <tr> <td> Hobbies: </td> <td> Gaming </td> </tr>
-              <tr> <td> Dream Job: </td> <td> Game designer/tester or programer </td> </tr>
+              <tr> <td> Name: </td> <td> Gage </td> </tr>
+              <tr> <td> Age: </td> <td> 16 </td> </tr>
+              <tr> <td> Grade: </td> <td> 10th </td> </tr>
+              <tr> <td> Team role: </td> <td> Mechanical engineer/Club president </td> </tr>
+              <tr> <td> Hobbies: </td> <td> Mountain Biking </td> </tr>
+              <tr> <td> Dream Job: </td> <td> Mechanical engineer for Tesla </td> </tr>
             </table>
           </div>
         </div>
@@ -104,9 +103,9 @@
           </div>
           <div class="memberCard">
             <table cellspacing="10px">
-              <tr> <td> Name: </td> <td> Kamren </td> </tr>
-              <tr> <td> Age: </td> <td> 13 </td> </tr>
-              <tr> <td> Grade: </td> <td> 8th </td> </tr>
+              <tr> <td> Name: </td> <td> Kegan </td> </tr>
+              <tr> <td> Age: </td> <td> 16 </td> </tr>
+              <tr> <td> Grade: </td> <td> 10th </td> </tr>
               <tr> <td> Team role: </td> <td> Treasurer/website designer </td> </tr>
               <tr> <td> Hobbies: </td> <td> Gaming </td> </tr>
               <tr> <td> Dream Job: </td> <td> Game designer/tester or programer </td> </tr>
