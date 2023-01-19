@@ -71,5 +71,10 @@ body {
 }
 
 about {
-	top-margin: 50%;
+	margin: 50%;
+}
+
+h2 {
+	color:white;
+	margin: 50;
 }
