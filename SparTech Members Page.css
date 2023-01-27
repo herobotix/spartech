@@ -30,6 +30,8 @@ th, td {
 .rowBottom{
 	display: flex;
 	margin: auto;
+	align-items: center;
+	justify-content: center;
 }
 
 .teamPageTitle{
