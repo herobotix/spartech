@@ -19,6 +19,7 @@ th, td {
 .rowTop{
 	display: flex;
 	margin: auto;
+	font-size: 1em
 }
 
 .rowMiddle{
@@ -36,4 +37,10 @@ th, td {
 	font-size: 3.12em;
 	font-family: felix titling;
 	margin-top: 30px;
+}
+
+.memberCard table {
+	width: 355px;
+	height: 250px
+	
 }

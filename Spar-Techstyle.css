@@ -40,7 +40,7 @@ nav a{
 	color: #FFD700;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: .9375em;
 }
 
 nav a:hover {
