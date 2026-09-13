@@ -193,5 +193,58 @@ table.tb td b,table.tb td strong{color:var(--ink)}
 .ck2 .n{font-family:Archivo,sans-serif;font-weight:700;font-size:15.5px;margin:3px 0 4px;
   letter-spacing:-.015em}
 .ck2 .b{font-size:14px;color:var(--ink2);line-height:1.4}
+/* parts & budget page */
+.poolbar{height:14px;background:var(--surf2);border:1px solid var(--line);border-radius:2px;
+  overflow:hidden;display:flex;margin:18px 0 9px}
+.poolbar span{display:block;height:100%}
+.pb-bought{background:var(--ok)}
+.pb-plan{background:var(--accent);opacity:.62}
+.pkey{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink2);margin-bottom:4px}
+.pkey i{width:9px;height:9px;border-radius:2px;display:inline-block;margin-right:6px}
+.pkey b{font-family:"JetBrains Mono",monospace;color:var(--ink);font-variant-numeric:tabular-nums}
+.under{color:var(--ok);font-weight:700}
+.overt{color:var(--accent);font-weight:700}
+
+.plist{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+.pitem{background:var(--surf);padding:15px 17px;display:grid;
+  grid-template-columns:92px minmax(0,1fr) 168px;gap:18px;align-items:start}
+.pitem.bought{border-left:3px solid var(--ok)}
+.pitem.past{background:var(--surf2)}
+.pimg{width:92px;height:92px;border:1px solid var(--line);border-radius:3px;background:var(--surf2);
+  display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pimg img{width:100%;height:100%;object-fit:contain;display:block}
+.pimg .ph{font-family:Archivo,sans-serif;font-weight:700;font-size:26px;color:var(--mut)}
+.pn{font-family:Archivo,sans-serif;font-weight:700;font-size:16.5px;line-height:1.25;
+  color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+a.pn:hover{color:var(--accent)}
+.pn .ex{font-size:10px;vertical-align:super;color:var(--mut);margin-left:3px}
+.pmeta{display:flex;flex-wrap:wrap;gap:5px 9px;margin-top:7px;align-items:center;
+  font-size:13px;color:var(--mut)}
+.psku{font-family:"JetBrains Mono",monospace;font-size:12px}
+.pnote{margin:8px 0 0;font-size:14px;color:var(--ink2);line-height:1.45;max-width:70ch}
+.tag{border:1px solid var(--line2);border-radius:2px;padding:1px 6px;font-size:10.5px;
+  font-family:"JetBrains Mono",monospace;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.tag.t1{color:var(--accent);border-color:var(--accent)}
+.tag.t2{color:var(--ink2)}
+.tag.t3{color:var(--mut);font-weight:500}
+.tag.st-purchased{color:var(--ok);border-color:var(--ok)}
+.tag.st-ordered{color:var(--accent);border-color:var(--accent)}
+.pcost{text-align:right;font-variant-numeric:tabular-nums}
+.pcost .amt{font-family:"JetBrains Mono",monospace;font-size:18px;font-weight:700;color:var(--ink)}
+.pcost .brk{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--mut);
+  margin-top:4px;line-height:1.5}
+.pcost .run{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--mut);margin-top:3px}
+.cutrow{background:var(--surf2);padding:9px 17px;display:flex;align-items:center;gap:14px}
+.cutrow .l{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--accent);white-space:nowrap}
+.cutrow .r{flex:1;border-top:2px dashed var(--line2)}
+.cutrow .a{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--mut);white-space:nowrap}
+.stamp{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--mut);margin-top:14px}
+@media (max-width:720px){
+  .pitem{grid-template-columns:64px minmax(0,1fr)}
+  .pimg{width:64px;height:64px}
+  .pcost{grid-column:1/-1;text-align:left;display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+  .pcost .brk,.pcost .run{margin-top:0}
+}
 footer{border-top:1px solid var(--line);padding:26px 0 42px;color:var(--mut);font-size:14px;margin-top:18px}
 footer p{margin:0}.sm{font-size:13px;margin-top:5px!important}
