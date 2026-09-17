@@ -1,0 +1,12 @@
+{
+  "updated": "2026-09-15",
+  "cards": {
+    "EP-1": {"status": "done", "date": "2026-09-15"},
+    "EP-6": {"status": "in-progress", "date": "2026-09-15"},
+    "EP-7": {"status": "in-progress", "date": "2026-09-15"},
+    "CD-1": {"status": "in-progress", "date": "2026-09-15"},
+    "PR-1": {"status": "in-progress", "date": "2026-09-15"},
+    "BA-2": {"status": "in-progress", "date": "2026-09-15"},
+    "TS-1": {"status": "in-progress", "date": "2026-09-15"}
+  }
+}

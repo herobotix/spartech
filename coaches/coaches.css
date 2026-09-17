@@ -193,6 +193,36 @@ table.tb td b,table.tb td strong{color:var(--ink)}
 .ck2 .n{font-family:Archivo,sans-serif;font-weight:700;font-size:15.5px;margin:3px 0 4px;
   letter-spacing:-.015em}
 .ck2 .b{font-size:14px;color:var(--ink2);line-height:1.4}
+/* team status */
+.sep{width:1px;height:22px;background:var(--line2);margin:0 3px}
+.spill{margin-left:auto;flex-shrink:0;align-self:center;font-family:"JetBrains Mono",monospace;font-size:10.5px;
+  font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:2px;white-space:nowrap}
+.spill.done{background:var(--ok);color:var(--surf)}
+.spill.progress{background:var(--accent);color:var(--surf)}
+.side .spill{margin-left:0}
+.sdate{font-size:13.5px;color:var(--mut);margin-left:7px}
+.mk{font-size:12px;font-weight:700}
+.mk.done{color:var(--ok)} .mk.progress{color:var(--accent)}
+.season{margin-top:22px;background:var(--surf);border:1px solid var(--line);border-radius:4px;
+  padding:16px 18px;box-shadow:var(--shadow);max-width:780px}
+.season .sh{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--mut);font-weight:700;margin-bottom:8px}
+.nums{display:flex;gap:6px 22px;flex-wrap:wrap;font-size:14px;color:var(--ink2);align-items:baseline}
+.nums b{font-family:Archivo,sans-serif;font-size:23px;font-weight:800;color:var(--ink);margin-right:5px;
+  font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.nums .dn b{color:var(--ok)} .nums .pg b{color:var(--accent)}
+.bar{height:8px;background:var(--surf2);border:1px solid var(--line);border-radius:4px;overflow:hidden;
+  display:flex;margin-top:11px}
+.bar i{display:block;height:100%}
+.bar .d{background:var(--ok)} .bar .p{background:var(--accent)}
+.act{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin-top:13px}
+.al{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--mut);font-weight:700;margin-right:3px}
+.link2{display:inline-flex;gap:6px;align-items:baseline;border:1px solid var(--line2);border-radius:3px;
+  padding:3px 9px;font-size:13.5px;color:var(--ink);text-decoration:none;background:var(--surf);cursor:pointer}
+.link2 span{font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:700;color:var(--accent)}
+.link2:hover{border-color:var(--accent)}
+.upd{margin-top:11px;font-size:11.5px;color:var(--mut);font-family:"JetBrains Mono",monospace}
 /* parts & budget page */
 .poolbar{height:14px;background:var(--surf2);border:1px solid var(--line);border-radius:2px;
   overflow:hidden;display:flex;margin:18px 0 9px}
