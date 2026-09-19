@@ -12,60 +12,114 @@
 <div class="inner">
 <div class="hero">
   <h1>The Plan</h1>
-  <p>Four meetings, then two weeks of fall break. Everything below works backward from one goal:
-  a drivable robot base attempting the Fast Lane Challenge on Friday, September 25.</p>
+  <p>Fast Lane is behind us. Everything below works forward from the first meeting after fall break
+  to three qualifiers: Roadrunner on November&nbsp;14, Saguaro Blossom on January&nbsp;23 and Copper on February&nbsp;6.</p>
 </div>
 <section>
-  <h2>The first four meetings</h2>
-  <p class="lede">The student robot is the REV Mecanum Drivetrain Kit v2 &mdash; drivetrain only, and no
-  intake is needed for Fast Lane. Steps marked <span class="crit">&#9654; critical</span> cannot slip.</p>
+  <h2>Three qualifiers, two robots</h2>
+  <p class="lede">The strategy is deliberately unromantic: build something that scores <i>first</i>, then design
+  something better while it is already competing.</p>
   <div class="wrapx"><table class="tb">
-    <tr><th style="width:12%">Meeting</th><th style="width:9%">Task time</th><th>Crews and cards</th></tr>
-    <tr><td><b>1</b><br>Tue Sep 15</td><td>100 min</td><td><b>Whole team, no crews yet.</b>
-      Short versions of two cards: <b>EP-1</b> Team Identity through the vote (~55 min &mdash; the team gets its
-      name today), then <span class="crit">&#9654;</span> <b>EP-7</b> Safety &amp; Tool Check-Off, safety walk plus
-      hand tools only (~45 min). Nobody may touch the build on Friday without EP-7.</td></tr>
-    <tr><td><b>2</b><br>Fri Sep 18</td><td>160 min</td><td><b>Crews form &mdash; students pick a track.</b><br>
-      <span class="crit">&#9654;</span> <b>Build:</b> BA-1 Inventory &rarr; BA-2 Mecanum Chassis. <b>BA-2 must finish today.</b><br>
-      <b>Programming:</b> PR-1 Get Connected <i>on the dev board</i> &rarr; start PR-2.<br>
-      <b>CAD:</b> CD-1 Onshape Setup &rarr; start CD-2. <b>Media:</b> EP-2 Read the Game &rarr; start TS-1.</td></tr>
-    <tr><td><b>3</b><br>Tue Sep 22</td><td>100 min</td><td>
-      <span class="crit">&#9654;</span> <b>Build:</b> BA-3 Mecanum Drive. <b>Must finish today</b> &mdash; and check the
-      roller X pattern before they leave.<br>
-      <b>Programming:</b> finish PR-2 on the board, then PR-10 Touch Sensor.<br>
-      <span class="crit">&#9654;</span> <b>Field:</b> EP-6 Tape the Practice Field. No field, no Fast Lane.</td></tr>
-    <tr><td><b>4</b><br>Fri Sep 25<br><span class="crit">FAST LANE</span></td><td>160 min</td><td>
-      <b>0&ndash;100:</b> <span class="crit">&#9654;</span> BA-4 Wire the Control Hub, while the programmers prep the
-      robot&rsquo;s motor names.<br>
-      <b>100&ndash;135:</b> PR-2 on the <i>robot</i>, then PR-3 First TeleOp.<br>
-      <b>135&ndash;160:</b> <b>Run Fast Lane.</b> Everyone drives at least one lap.</td></tr>
+    <tr><th style="width:30%">Qualifier</th><th style="width:13%">Date</th><th>What we bring</th></tr>
+    <tr><td><b>Roadrunner</b><br>Gilbert Christian School, Gilbert</td><td><b>Sat Nov 14</b></td>
+      <td><b>Mk-1</b> &mdash; the REV DUO Starter Bot superstructure built to REV&rsquo;s guide, mounted on
+      <i>our</i> mecanum chassis. The goal is a robot that scores, on time &mdash; not a clever one.</td></tr>
+    <tr><td><b>Saguaro Blossom</b><br>Microchip, Chandler</td><td><b>Sat Jan 23</b></td>
+      <td><b>Mk-2</b> &mdash; our own design, prototyped in parallel from October and built over the winter on
+      what Roadrunner taught us.</td></tr>
+    <tr><td><b>Copper</b><br>American Leadership Academy, Queen Creek</td><td><b>Sat Feb 6</b></td>
+      <td><b>Mk-2 refined</b> &mdash; two weeks to fix whatever January exposed. No new mechanisms this late.</td></tr>
+  </table></div>
+  <div class="callout"><p><b>Why the Starter Bot first.</b> A rookie team that spends October designing has
+  nothing to drive in November. A rookie team that builds REV&rsquo;s robot in October has a scoring machine, a
+  season of match data, and a very well-informed opinion about what to design next. Half the team builds Mk-1;
+  the other half prototypes Mk-2 from the first meeting back.</p></div>
+</section>
+<section>
+  <h2>Two things to order during fall break</h2>
+  <p class="lede">Both of these have lead time and both of them stop the robot dead. Neither is optional.</p>
+  <div class="callout"><p><b>1. An Expansion Hub.</b> A Control Hub has <b>four motor ports</b>. Mecanum uses all
+  four. The Starter Bot&rsquo;s intake and flywheel are motors <b>five and six</b>. There is no software way
+  around this, and a second Control Hub will not do the job &mdash; it has to be an Expansion Hub
+  (REV-31-1153, about $275, which ships with the power extension and communication cable it needs).
+  <b>Check the Herobotix parts bins first</b> &mdash; a program this old has often got one from an earlier season.</p>
+  <p><b>2. The Starter Bot superstructure parts.</b> REV&rsquo;s guide assumes a Starter Kit V3.1 ($695). Our
+  Mecanum Drivetrain Kit v2 covers the chassis, the four drive motors and the hand tools &mdash; and none of what
+  sits on top. Missing: 15mm extrusion, polycarbonate sheet, intake flaps, grip wheels, gears, chain and
+  sprockets, two smart servos, a Core Hex motor, one more UltraPlanetary and HD Hex for the flywheel, bearings
+  and brackets, and M3 hardware in bulk. <b>Parts that arrive in November are parts that do not compete.</b></p></div>
+</section>
+<section>
+  <h2>Ten meetings to Roadrunner</h2>
+  <p class="lede">Five weeks back from break, two meetings each. The scheduling fact that makes it fit:
+  <b>four of the five Starter Bot assemblies are bench work</b> &mdash; launcher floor, intake, flywheel and
+  feeder, and pollen pusher all get built off the robot, so four crews can build them at once.
+  Steps marked <span class="crit">&#9654; critical</span> cannot slip.</p>
+  <div class="wrapx"><table class="tb">
+    <tr><th style="width:11%">Week</th><th style="width:45%">Mk-1 &mdash; the robot that competes</th><th>Mk-2 &amp; media &mdash; runs alongside</th></tr>
+    <tr><td><b>1</b><br>Oct 13, 16</td>
+      <td><span class="crit">&#9654;</span> <b>BA-11</b> Parts check &amp; cut list &mdash; <i>everything waits on this.</i>
+      Then <b>BA-12</b>, <b>BA-13</b>, <b>BA-14</b>, <b>BA-15</b> start in parallel on the bench.</td>
+      <td><b>CD-9</b> Fit the Starter Bot to our chassis in CAD &mdash; week one, because the build crew needs its
+      numbers. <b>MF-2</b>/<b>MF-3</b> sponsor letters.</td></tr>
+    <tr><td><b>2</b><br>Oct 20, 23</td>
+      <td>Finish the four subassemblies. <span class="crit">&#9654;</span> <b>BA-16</b> Mount them on the mecanum
+      chassis &mdash; the part REV has no guide for.</td>
+      <td><b>CD-3</b>/<b>CD-4</b> intake and outtake concepts, <b>BA-7</b> cardboard prototype, <b>EP-11</b> portfolio started.</td></tr>
+    <tr><td><b>3</b><br>Oct 27, 30</td>
+      <td><span class="crit">&#9654;</span> <b>BA-17</b> Expansion Hub &rarr; <b>PR-18</b> Configuration &rarr;
+      <b>PR-19</b> Starter Bot TeleOp on mecanum. <b>It drives and shoots by Oct 30.</b></td>
+      <td><b>CD-6</b>/<b>CD-7</b> printed parts, <b>MG-2</b>/<b>MG-3</b> give-aways for the event, <b>TS-5</b> press the shirts.</td></tr>
+    <tr><td><b>4</b><br>Nov 3, 6</td>
+      <td><b>PR-20</b> Flywheel tuning, <b>PR-21</b> Autonomous, <b>EP-9</b> Drive team practice.
+      Most of the points live in this week.</td>
+      <td><b>EP-11</b> portfolio submitted, <b>EP-8</b> scouting sheet built and tested on match video.</td></tr>
+    <tr><td><b>5</b><br>Nov 10, 13</td>
+      <td><span class="crit">&#9654;</span> <b>BA-18</b> Inspection dry run &mdash; a week early, on purpose.
+      Then drive practice only. <b>No new mechanisms.</b></td>
+      <td><b>EP-10</b> Pit setup &amp; run sheet, pack the tote, rehearse the judging interview.</td></tr>
   </table></div>
   <div class="callout">
-    <p><b>If you fall behind.</b> The two checkpoints that decide everything are <b>BA-2 finished Sept 18</b>
-    and <b>BA-3 finished Sept 22</b>. If either slips, move people off the media and merch cards onto the build.
-    Those cards keep; the deadline does not.</p>
-    <p>If the 25th arrives and it does not drive, run Fast Lane anyway &mdash; tape the track, walk the chassis
-    around by hand, let drivers practice on the dev board. <b>Forward and turning alone are enough for Fast
-    Lane</b>; if strafing is fighting you, ship the tank-style version and fix it after break.</p>
-    <p><b>Before you walk out on Sept 25.</b> Two weeks is long enough to forget everything. Leave the robot in
-    a known state, get every crew&rsquo;s notebook entry written, and match the shop to the reference photo.</p>
+    <p><b>If you fall behind.</b> The one date that cannot move is <b>BA-16 finished by Oct 23</b>. Everything after
+    it is programming and practice, and programming compresses; building does not. If week two slips, drop the
+    pollen pusher (<b>BA-15</b>) &mdash; the robot scores without it. If week three slips, go to Roadrunner with
+    TeleOp and no autonomous. <b>A robot that drives and shoots badly beats a robot that stays in the pit.</b></p>
   </div>
 </section>
 <section>
+  <h2>After Roadrunner: building Mk-2</h2>
+  <p class="lede">Roughly fourteen meetings separate Roadrunner from Saguaro Blossom, minus Thanksgiving and
+  winter break. That is enough to design and build <i>one</i> good mechanism. It is not enough to build three.</p>
+  <div class="wrapx"><table class="tb">
+    <tr><th style="width:22%">When</th><th>What happens</th></tr>
+    <tr><td><b>First meeting back</b><br>after Nov 14</td><td><span class="crit">&#9654;</span> <b>EP-12</b> Post-event
+      debrief, while everyone still remembers. It turns thirty robots watched and five matches played into a
+      ranked list of what Mk-2 must fix. Nothing gets designed before this card is done.</td></tr>
+    <tr><td><b>Late Nov &ndash; Dec</b></td><td>Design and prototype the top item on that list: <b>CD-3</b>, <b>CD-4</b>,
+      <b>CD-5</b>, <b>CD-7</b> in CAD; <b>BA-5</b> and <b>BA-7</b> on the bench. Mk-1 stays assembled and drivable
+      the whole time &mdash; the drive team keeps practising on it.</td></tr>
+    <tr><td><b>Early Jan</b></td><td>Build and integrate. <b>PR-15</b>, <b>PR-16</b>, <b>PR-17</b> bring the Pinpoint
+      odometry and Pedro Pathing into autonomous &mdash; that is the single biggest points upgrade available to us.
+      Re-run <b>BA-18</b> inspection on the changed robot.</td></tr>
+    <tr><td><b>Jan 23 &rarr; Feb 6</b></td><td>Four meetings between the second and third qualifier. Fix, tune and
+      practise only. Run <b>EP-12</b> again the first meeting after Saguaro Blossom.</td></tr>
+  </table></div>
+</section>
+<section>
   <h2>What can run at the same time</h2>
-  <p class="lede">Every card is tagged with the hardware it needs. That tag is what decides how many crews
-  can work at once.</p>
+  <p class="lede">Every card is tagged with the hardware it needs. That tag is what decides how many crews can
+  work at once &mdash; and it is why the Starter Bot fits into ten meetings at all.</p>
   <div class="wrapx"><table class="tb">
     <tr><th style="width:20%">Tag</th><th style="width:9%">Cards</th><th>What it means for planning</th></tr>
-    <tr><td><b>No hardware</b></td><td>35</td><td>Runs anywhere, any number of crews at once. Planning, all eight CAD cards, merch, shirts, marketing, plus PR-9 (simulator) and BA-1/BA-6.</td></tr>
+    <tr><td><b>No hardware</b></td><td>45</td><td>Runs anywhere, any number of crews at once. Planning, all nine CAD cards, merch, shirts, marketing, PR-9 (simulator), BA-1/BA-6 &mdash; and the four Starter Bot bench subassemblies, BA-12 to BA-15.</td></tr>
     <tr><td><b>Programming board</b></td><td>4</td><td>Needs the 3D-printed dev board. PR-10, PR-11 and PR-12 teach touch, colour and potentiometer &mdash; none of which exist on the drivetrain kit.</td></tr>
     <tr><td><b>Board or robot</b></td><td>3</td><td>Either works. Run these on the board while the build crew still has the robot apart.</td></tr>
-    <tr><td><b>Robot</b> / <b>Robot + field</b></td><td>18</td><td>The scarce resource &mdash; one crew at a time, unless the Herobotix class robot is present and has its own hub.</td></tr>
+    <tr><td><b>Robot</b> / <b>Robot + field</b></td><td>26</td><td>The scarce resource &mdash; one crew at a time, unless the Herobotix class robot is present and has its own hub.</td></tr>
   </table></div>
-  <div class="callout"><p><b>Control Hub accounting.</b> The mecanum kit ships without a Control Hub, a battery
-  or wiring. The team has two hubs: one is on the programming board, which leaves one for the student robot.
-  That is exactly what the two-track plan needs &mdash; neither ever gets unbolted to run a meeting.
-  <b>No hub on the student robot means no Fast Lane.</b></p></div>
+  <div class="callout"><p><b>Hub accounting.</b> The team has two Control Hubs: one lives on the programming board,
+  one is on the student robot. That covers both tracks and neither ever gets unbolted to run a meeting. The
+  Expansion Hub above is a <i>third</i> board, not a replacement for either &mdash; it hangs off the student
+  robot&rsquo;s Control Hub to carry motors five and six.</p></div>
 </section>
 <section>
   <h2>Stickers &amp; awards</h2>
